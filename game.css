@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+}
+
+.mainContainer{
+    display: flex;
+}
+
+.game{
+    display: flex;
+    margin-left: 10rem;
+}
+
+.imgDiv{
+    /* background: #000; */
+    height: 20rem;
+    width: 15rem;
+    border-radius: 20px;
+}
+
+.imgDiv img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+}
+
+.signButtons{
+    height: 12rem;
+    width: 10rem;
+    margin-right: 20px;
+}
+
+.signButtons:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.vs{
+    display: flex ;
+    margin: 3rem;
+    flex-direction: column;
+    justify-content: center;
+}

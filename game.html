@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="https://kit.fontawesome.com/8c6a43e864.js" crossorigin="anonymous"></script>
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <div class="mainContainer">
+
+        <div class="container border-r-gray-500 border-2">
+            <h1>Stone Paper & Scissor</h1>
+            <h3>Choose one of the following:</h3>
+            <div class="flex-col mt-2">
+                <button class="signButtons" id="rock"><i class="fa fa-hand-rock-o fa-5x"></i> </button>
+                <button class="signButtons" id="paper"><i class="fa fa-hand-paper-o fa-5x"></i> </button>
+                <button class="signButtons" id="scissor"><i class="fa fa-hand-scissors-o fa-5x"></i></button>
+            </div>
+        </div>
+        <div class="container">
+            
+            <div class="game">
+                <div class="imgDiv">
+                    <img id="human" src="" alt="human">
+                </div>
+                <div class="vs">
+                    <h1 class="">vs</h1>
+                </div>
+                <div class="imgDiv">
+                    <img id="computer" src="" alt="computer">
+                </div>
+            </div>
+            <h1 id="result" class="text-center"> Result </h1>
+
+        </div>
+    </div>
+</body>
+</html>
